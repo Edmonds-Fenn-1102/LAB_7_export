@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "make and run for output",
+      "setup": "make clean; make",
+      "run": "./rental_agency",
+      "input": "",
+      "output": "Hertz\r\n\r\nCars\r\n=====================\r\nMake Model Year Available Seats\r\n=====================\r\nCadillac DeVille 1979 1 5\r\nChevrolet Sonic 2016 0 5\r\n\r\nMotorcycles\r\n=====================\r\nType Make Model Year Available\r\n=====================\r\nTouring Indian Roadmaster 2022 1 \r\n",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
